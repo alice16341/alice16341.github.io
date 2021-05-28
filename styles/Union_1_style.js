@@ -5,7 +5,7 @@ function categories_Union_1(feature, value, size, resolution, labelText,
                        placement) {
                 switch(value.toString()) {case 'BOM11_Penot':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(52,152,230,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(52,152,230,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -13,7 +13,7 @@ function categories_Union_1(feature, value, size, resolution, labelText,
                     break;
 case 'BOM162_Baratto':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(23,181,12,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(23,181,12,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -21,7 +21,7 @@ case 'BOM162_Baratto':
                     break;
 case 'BOM163_Sauvageot':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(236,165,12,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(226,119,5,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -29,7 +29,7 @@ case 'BOM163_Sauvageot':
                     break;
 case 'BOM181_MartinCh':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(218,208,17,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(218,208,17,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -37,7 +37,7 @@ case 'BOM181_MartinCh':
                     break;
 case 'BOM191_Boulin':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(227,45,221,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
+        stroke: new ol.style.Stroke({color: 'rgba(227,45,221,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
